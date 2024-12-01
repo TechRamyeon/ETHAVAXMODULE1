@@ -1,4 +1,3 @@
-
 # EMI1 Token Contract  
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
@@ -81,43 +80,6 @@ function transfer(address to, uint256 value) public override returns (bool) {
     return true;  
 }  
 ```  
-
----
-
-## Getting Started  
-
-### Prerequisites  
-- Install [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/).  
-- Install [Hardhat](https://hardhat.org/):  
-  ```bash  
-  npm install --save-dev hardhat  
-  ```  
-
-### Installation  
-1. Clone this repository:  
-   ```bash  
-   git clone https://github.com/your-repo/EMI1-token.git  
-   ```  
-2. Install dependencies:  
-   ```bash  
-   npm install  
-   ```  
-
----
-
-## Deployment  
-1. Update the initial supply in the `constructor` during deployment.  
-2. Deploy the contract using Hardhat or other tools:  
-   ```bash  
-   npx hardhat run scripts/deploy.js --network <network-name>  
-   ```  
-
----
-
 ## License  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
 
----  
-
-## Contact  
-For issues or suggestions, please create an issue in this repository.  
